@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+    .main-part322 {
+        width: 10cm;
+    }
+    .github-programming-stuff {
+        width: 10.5cm;
+    }
+    .github-programming-stuff iframe {
+        overflow-y: hidden;
+        position: relative;
+        max-width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    .main-part322 {
+        width: 11cm;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1024px){
+   
+}
+  
+@media (min-width: 1025px) and (max-width: 1280px){
+    
+}
+  
+@media (min-width: 1281px) {
+   
+}

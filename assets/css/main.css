@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+
+body,html {
+    color: rgb(39, 39, 39);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #fff;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+  
+  
+  #logo {
+      border-radius: 10px;
+  }
+
+footer {
+    position: relative;
+    top: 18cm;
+    background-color: #fff;
+}
+
+.main-partddd {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 9cm;
+    color: white;
+    text-shadow: rgba(37, 37, 37, 0.516) -1px 1px;
+    transition: 2s;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.main-partddd button {
+    border-color: transparent;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border-radius: 10px;
+    transition: 3s;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.main-partddd button:hover {
+  transition: 3s;
+  background-color: rgb(0, 0, 0);
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.flopi {
+  position: relative;
+  top: 18cm;
+}
+
+.flopi a img {
+  opacity: 0;
+}
+
+.flopi a img:hover {
+  opacity: 1;
+}
+
+.main-part322 {
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  width: 17cm;
+  height: 27cm;
+  position: relative;
+  top: 1cm;
+}
+
+.group-title-about {
+  text-align: center;
+}
+
+.group-title-about img {
+  border-radius: 20px;
+  position: relative;
+  top: 1cm;
+}
+
+.group-title-about h1 {
+  position: relative;
+  margin-top: 1.5cm;
+}
+
+.group-title-about button {
+  border-color: transparent;
+  background-color: rgb(58, 58, 255);
+  color: white;
+  border-radius: 10px;
+}
+
+#postip {
+  color: rgb(127, 163, 255);
+}
+
+.IP {
+  display: none;
+}
+
+.card {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  min-width: 300px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.3);
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.card img {
+  width: 100%;
+  transition: all 1s ease;
+  z-index: 0
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  cursor: crosshair;
+  overflow: hidden;
+}
+
+.image:hover img {
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+.header h2 {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  padding: 0 10px;
+  color: #fff;
+  text-transform: uppercase;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.icon {
+  position: absolute;
+  background: #fff;
+  right: 10px;
+  top: 135px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 3px #0002;
+  z-index: 9
+}
+
+#rest {
+  padding: 30px 15px;
+  line-height: 30px;
+  color: #000d42
+}
+
+.nameserver {
+  position: relative;
+  top: 1cm;
+  text-align: center;
+}
+
+.button-see-statusbutton {
+  justify-content: center;
+  position: relative;
+  left: 0 auto;
+  top: 1cm;
+  right: 0 auto;
+}
+
+.button-see-statusbutton button {
+  position: relative;
+  left: 60px;
+  border-color: transparent;
+  background-color: #000d42;
+  color: white;
+  border-radius: 10px;
+}
+
+#span-online {
+  color: green;
+  position: relative;
+  text-align: center;
+  left: 2cm;
+  text-decoration: none;
+  text-anchor: end;
+}
+
+.main-part-projekte {
+  position: relative;
+  top: 2cm;
+}
+
+#img-inner-projekt {
+  position: relative;
+  right: 3.6cm;
+  border-radius: 100px;
+}
+
+#source {
+  position: relative;
+  top: 18cm;
+  color: white;
+  font-size: large;
+  left: 42cm;
+}
+
+.github-programming-stuff {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3cm;
+  width: 15cm;
+  height: 20cm;
+  background-color: #0002;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.languagesandtools {
+  position: relative;
+  bottom: 7cm;
+  width: 10cm;
+  text-align: center;
+}
